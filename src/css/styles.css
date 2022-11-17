@@ -18,3 +18,11 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.countries__flag {
+  transition: transform 1s;
+}
+
+.countries__flag:hover {
+  transform: scale(1.1);
+}
